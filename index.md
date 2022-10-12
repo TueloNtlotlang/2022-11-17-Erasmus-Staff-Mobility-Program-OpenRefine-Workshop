@@ -14,8 +14,8 @@ humantime: "9:00 am - 4:30 pm CEST"    #2 human-readable times for the workshop 
 startdate: 2022-11-15      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2022-11-17        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Tuelo Ntlotlang", ""] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["helper one", "helper two"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["ntlotlangt@biust.ac.bw","second@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+helper: ["Dolors Pons Sala", ""]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+email: ["ntlotlangt@biust.ac.bw","montserrat.espinos@upf.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -216,7 +216,7 @@ special instructions.
   <strong>Accessibility:</strong>
 {% if online == "false" %}
   We are committed to making this workshop
-  accessible to everybody.  For workshops at a physical location, the workshop organizers have checked that:
+  accessible to everybody.  For workshops at a physical location, please note that the following has been arranged :
 </p>
 <ul>
   <li>The room is wheelchair / scooter accessible.</li>
@@ -224,17 +224,11 @@ special instructions.
 </ul>
 <p>
   Materials will be provided in advance of the workshop and
-  large-print handouts are available if needed by notifying the
-  organizers in advance.  If we can help making learning easier for
-  you (e.g. sign-language interpreters, lactation facilities) please
-  get in touch (using contact details below) and we will
-  attempt to provide them.
+  you will be able to ask organisers for extra materials if needed in advance.  If we can help making learning easier for
+  you
 </p>
 {% else %}
-  We are dedicated to providing a positive and accessible learning environment for all. Please
-  notify the instructors in advance of the workshop if you require any accommodations or if there is
-  anything we can do to make this workshop more accessible to you.
-</p>
+  </p>
 {% endif %}
 
 {% comment %}
@@ -262,10 +256,10 @@ Display the contact email address set in the configuration file.
   for more information.
 </p>
 
-<p id="roles">
-  <strong>Roles:</strong>
-  To learn more about the roles at the workshop (who will be doing what),
-  refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
+<p id="who-can-attend">
+  <strong>Who can attend?:</strong>
+   This workshop is open to ....
+  </a>.
 </p>
 
 {% comment %}
@@ -285,7 +279,7 @@ Edit the text to match who can attend the workshop. For instance:
 
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to ....
+    This workshop is designed to Consorci de Serveis Universitaris de Catalunya = Consortium of Catalan Universities and Universitat Politècnica de Catalunya = Polithecnical University of Catalonia UPF Library staff. No programming experience is required.
 </p>
 {% endcomment %}
 
