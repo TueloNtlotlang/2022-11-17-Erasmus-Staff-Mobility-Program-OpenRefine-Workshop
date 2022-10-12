@@ -258,7 +258,7 @@ Display the contact email address set in the configuration file.
 
 <p id="who-can-attend">
   <strong>Who can attend?:</strong>
-   This workshop is designed to Consorci de Serveis Universitaris de Catalunya = Consortium of Catalan Universities and Universitat Politècnica de Catalunya =     Polithecnical University of Catalonia UPF Library staff. No programming experience is required
+   This workshop is designed for Consorci de Serveis Universitaris de Catalunya = Consortium of Catalan Universities and Universitat Politècnica de Catalunya =     Polithecnical University of Catalonia UPF Library staff. No programming experience is required
 </p>
 
 {% comment %}
