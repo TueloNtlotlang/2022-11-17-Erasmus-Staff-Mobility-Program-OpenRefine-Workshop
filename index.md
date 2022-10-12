@@ -216,7 +216,7 @@ special instructions.
   <strong>Accessibility:</strong>
 {% if online == "false" %}
   We are committed to making this workshop
-  accessible to everybody.  For workshops at a physical location, please note that the following has been arranged :
+  accessible to everybody. Please note that the following has been arranged :
 </p>
 <ul>
   <li>The room is wheelchair / scooter accessible.</li>
@@ -258,8 +258,7 @@ Display the contact email address set in the configuration file.
 
 <p id="who-can-attend">
   <strong>Who can attend?:</strong>
-   This workshop is open to ....
-  </a>.
+   This workshop is designed to Consorci de Serveis Universitaris de Catalunya = Consortium of Catalan Universities and Universitat Politècnica de Catalunya =     Polithecnical University of Catalonia UPF Library staff. No programming experience is required
 </p>
 
 {% comment %}
