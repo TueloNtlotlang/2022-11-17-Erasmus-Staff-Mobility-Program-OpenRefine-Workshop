@@ -52,7 +52,7 @@ pilot: false
 # Most workshops don't use extra pages. More information about extra
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
-title: <font size= "2"> "Erasmus+ Staff Mobility Program, UPF Libray Staff, Spain : OpenRefine Training Workshop"</font>
+title: <font size= "3"> "Erasmus+ Staff Mobility Program, UPF Libray Staff, Spain : OpenRefine Training Workshop"</font>
 
 #------------------------------------------------------------
 # Incubator workshop settings (only relevant for workshops teaching a lesson
